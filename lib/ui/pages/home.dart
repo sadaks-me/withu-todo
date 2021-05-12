@@ -21,12 +21,12 @@ class _HomeTabsPageState extends State<HomeTabsPage> {
     List<Widget> children = [
       TasksPage(
         title: 'All Tasks',
-        tasks: FirebaseManager.shared.tasks,
+        tasks: FirebaseManager.shared!.tasks,
       ),
       TasksPage(
         title: 'Completed Tasks',
         tasks:
-            FirebaseManager.shared.tasks.where((t) => t.isCompleted).toList(),
+            FirebaseManager.shared!.tasks.where((t) => t.isCompleted).toList(),
       )
     ];
 

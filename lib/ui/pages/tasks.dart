@@ -3,7 +3,7 @@ import 'package:withu_todo/non_ui/jsonclasses/task.dart';
 import 'package:withu_todo/ui/pages/task.dart';
 
 class TasksPage extends StatelessWidget {
-  TasksPage({@required this.title, @required this.tasks});
+  TasksPage({required this.title, required this.tasks});
 
   final String title;
   final List<Task> tasks;
@@ -72,8 +72,8 @@ class _Task extends StatelessWidget {
         ),
         onPressed: _toggleComplete,
       ),
-      title: Text(task.title),
-      subtitle: Text(task.description),
+      title: Text(task.title!),
+      subtitle: Text(task.description!),
       trailing: IconButton(
         icon: Icon(
           Icons.delete,
