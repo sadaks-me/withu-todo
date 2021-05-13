@@ -10,7 +10,7 @@ A WithU Todo Project
 - Added model-view-provider structure.
 - Removed unused platform folders.
 
-## Screenshots
+## Screenrecord
 <p>
-	<img src="https://github.com/sadaks-me/withu-todo/blob/master/screens/record.webp?raw=true" width="250" height="443"/>
+	<img src="https://github.com/sadaks-me/withu-todo/blob/master/screens/record.gif?raw=true" width="250" height="443"/>
 </p>
