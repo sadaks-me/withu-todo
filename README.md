@@ -12,5 +12,5 @@ A WithU Todo Project
 
 ## Screenshots
 <p>
-	<img src="https://github.com/sadaks-me/withu-todo/blob/master/screens/record.mp4?raw=true" width="250" height="443"/>
+	<img src="https://github.com/sadaks-me/withu-todo/blob/master/screens/record.webp?raw=true" width="250" height="443"/>
 </p>
